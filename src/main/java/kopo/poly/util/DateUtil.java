@@ -1,4 +1,4 @@
-package kopo.poly.Util;
+package kopo.poly.util;
 
 import java.text.SimpleDateFormat;
 import java.time.Instant;
@@ -21,8 +21,6 @@ public class DateUtil {
 
         return date.format(today);
     }
-
-
 
     /**
      * 날짜, 시간 출력하기

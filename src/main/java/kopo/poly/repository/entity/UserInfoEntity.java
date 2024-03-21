@@ -27,7 +27,7 @@ public class UserInfoEntity implements Serializable {
     private String userName;
 
     @NonNull
-    @Column(name = "password", length = 1, nullable = false)
+    @Column(name = "password", length = 100, nullable = false)
     private String password;
 
     @NonNull
@@ -53,7 +53,7 @@ public class UserInfoEntity implements Serializable {
     @Column(name = "chg_dt")
     private String chgDt;
 
-    @Column(name = "roles") //권한 데이터는 ,를 구분자로 여러 개(예 : 관리자, 일반사용자) 정의 가능함
-    private String roles;
+//    @Column(name = "roles") //권한 데이터는 ,를 구분자로 여러 개(예 : 관리자, 일반사용자) 정의 가능함
+//    private String roles;
 
 }

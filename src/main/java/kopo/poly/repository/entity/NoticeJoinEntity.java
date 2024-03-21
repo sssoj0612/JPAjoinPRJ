@@ -73,4 +73,7 @@ public class NoticeJoinEntity {
     @JoinColumn(name = "user_id", insertable = false, updatable = false)
     private UserInfoEntity userInfoEntity;
 
+    @Column(name = "user_name")
+    private String userName;
+
 }

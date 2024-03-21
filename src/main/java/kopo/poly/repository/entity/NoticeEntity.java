@@ -12,6 +12,7 @@ import org.hibernate.annotations.DynamicUpdate;
 @DynamicInsert
 @DynamicUpdate
 @Builder
+@Cacheable
 @Entity
 @ToString
 public class NoticeEntity {
